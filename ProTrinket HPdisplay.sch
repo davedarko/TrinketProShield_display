@@ -7365,6 +7365,11 @@ type RDH, grid 15 mm</description>
 <wire x1="93.98" y1="172.72" x2="119.38" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="172.72" x2="119.38" y2="177.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="FTDI" gate="A" pin="2"/>
+<wire x1="73.66" y1="190.5" x2="68.58" y2="190.5" width="0.1524" layer="91"/>
+<label x="68.58" y="190.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VBUS" class="1">
 <segment>
