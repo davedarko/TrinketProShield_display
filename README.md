@@ -1,4 +1,4 @@
-# TrinketProShield_display
+# TrinketProShield for bubble displays
 Shield for trinket pro to feature a bubble display and lm75
 
 I created this project, inspired by the events in Texas, 
@@ -9,6 +9,8 @@ It is a shield for an adafruit trinket pro, based on an atmega238p with vusb.
 An additional temparature sensor in the form of the LM75 can be added to this bubble display shield.
 The atmega32p is capable of driving up to 40mA per pin, so with the display needing 5mA per element of a digit,
 it should be fine, since it will be a pulsed signal and there are 8 elements max.
+
+The display is a famous poket calculator LED bubble display called the HP QDSP-6064.
 
 For more details see:
 http://hackaday.com/2015/09/16/why-you-should-build-a-clock-for-social-good-this-week/
