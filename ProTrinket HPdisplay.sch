@@ -7484,12 +7484,24 @@ type RDH, grid 15 mm</description>
 <wire x1="134.62" y1="167.64" x2="144.78" y2="167.64" width="0.1524" layer="91"/>
 <label x="139.7" y="167.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="SDA"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="193.04" x2="93.98" y2="193.04" width="0.1524" layer="91"/>
+<label x="91.44" y="193.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="A5" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="12"/>
 <wire x1="134.62" y1="165.1" x2="144.78" y2="165.1" width="0.1524" layer="91"/>
 <label x="139.7" y="165.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="SCL"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="187.96" x2="93.98" y2="187.96" width="0.1524" layer="91"/>
+<label x="91.44" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -7653,12 +7665,6 @@ type RDH, grid 15 mm</description>
 </net>
 <net name="A7" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="SCL"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="187.96" x2="93.98" y2="187.96" width="0.1524" layer="91"/>
-<label x="91.44" y="187.96" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP2" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="152.4" x2="139.7" y2="152.4" width="0.1524" layer="91"/>
 <label x="139.7" y="152.4" size="1.778" layer="95"/>
@@ -7676,12 +7682,6 @@ type RDH, grid 15 mm</description>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="154.94" x2="139.7" y2="154.94" width="0.1524" layer="91"/>
 <label x="139.7" y="154.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="SDA"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="193.04" x2="93.98" y2="193.04" width="0.1524" layer="91"/>
-<label x="91.44" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
